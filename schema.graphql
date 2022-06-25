@@ -3,6 +3,18 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Mutation {
+  ModifyUser(id: String!, username: String!): User!
+}
+
 type Query {
   ping: String!
+  User(id: String!): User!
+  Users: [User!]!
+}
+
+type User {
+  id: ID!
+  message: String!
+  username: String!
 }

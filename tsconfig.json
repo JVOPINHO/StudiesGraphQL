@@ -17,7 +17,8 @@
         "forceConsistentCasingInFileNames": true,
 		"moduleResolution": "node",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false
     },
     "exclude": [
         "build",
